@@ -1,7 +1,6 @@
 const Screen = require("./screen");
 const Cursor = require("./cursor");
 const GameLogic = require("./game-logic");
-const { matches } = require("./game-logic");
 
 class Bejeweled {
 
@@ -9,7 +8,7 @@ class Bejeweled {
 
     this.playerTurn = "O";
 
-    this.emojis = ['💦', '😩', '🍑', '🥑', '💅', '🍆', '🥵'];
+    this.emojis = ['🍬', '🍭', '🍫', '🍇', '🍋', '🍎', '🍏'];
 
     GameLogic.initializeGrid(8, 8, this.emojis);
 
