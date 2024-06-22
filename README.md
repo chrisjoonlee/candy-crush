@@ -6,6 +6,7 @@ This is a game based on Candy Crush/Bejeweled that you can play in your terminal
 
 ## How to play
 
+* Clone and enter the repo
 * Run `npm install`
 * Run `node game.js`
 
